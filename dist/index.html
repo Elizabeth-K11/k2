@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Responsive Audio Player</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<link rel='stylesheet' href='https://cdn.plyr.io/3.6.2/plyr.css'><link rel="stylesheet" href="./style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
+<script src="js/menu.js"></script>
+</head>
+<body>
+
+    <header class="header">
+        <div class="header__row">
+        <div class="header__menu">
+        <div class="menu-burger__header">
+        <span></span>
+        </div>
+        <nav class="nav">
+        <ul class="header__row_links">
+        <li class="headerlist_link_"><a href="https://dobrowydka.github.io/StarTechMainPage/" class="headerlink main">Главная </a> </li>
+        <div class="checklist">
+        <li class="dropdown "><a href="D:\Документы Лизы\WEB-проект\макет\responsive-audio-player\dist\script.js" class="dropbtn">Тренировки </a>
+        <!-- выпадающий список-->
+        
+        <div class="dropdown_content">
+        <a class="nav__link2 rar" href="#">силовые упражнения</a>
+        <a class="nav__link2" href="#">йога</a>
+        <a class="nav__link2" href="#">степ-аэробика</a>
+        
+        </div>
+        <ol class="aaoo">
+        <li class="li1"><a class="nav__link2 rar" href="#">силовые упражнения</a></li>
+        <li class="li1"><a class="nav__link2" href="#">йога</a></li>
+        <li class="li1"><a class="nav__link2" href="#">степ-аэробика</a></li>
+        </ol>
+        
+        </li>
+        </div>
+        
+        <li class="headerlist_link"> <a href="#" class="headerlink"> Марафоны </a> </li>
+        <li class="headerlist_link"><a href="#" class="headerlink">Питание </a> </li>
+        <li class="headerlist_link"><a href="#" class="headerlink"> Плейлисты </a> </li>
+        </ul>
+        </nav>
+        </div>
+        </div>
+        </header>
+
+
+<!-- partial:index.partial.html -->
+<div class="container">
+    <div class="column add-bottom">
+        
+            <div id="plwrap">
+                <ul id="plList"></ul>
+            </div>
+        </div>
+    
+    <div id="mainwrap">
+            <div id="nowPlay">
+                <span id="npAction">Paused...</span><span id="npTitle"></span>
+            </div>
+            <div id="audiowrap">
+               <div id="tracks">
+                    <a id="btnPrev">&larr;</a><a id="btnNext">&rarr;</a>
+                </div> 
+                <div id="audio0">
+                    <audio id="audio1" preload controls>Your browser does not support HTML5 Audio! 😢</audio>
+                </div>
+                
+            </div>
+  
+</div></div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/html5media/1.1.8/html5media.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/plyr/3.6.2/plyr.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
